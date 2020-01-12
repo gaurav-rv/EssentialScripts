@@ -1,0 +1,7 @@
+0. Login to mysql: $ mysql -u root -p
+1. Create a database: $ CREATE DATABASE db_connect;
+$ USE db_connect;
+2. Create a user : $ CREATE USER 'splunk_user'@'localhost' IDENTIFIED by 'password';
+3. Grant privileges to the user for that db : GRANT ALL PRIVILEGES ON db_connect.* TO 'splunk_user'@'localhost';
+4 .Connect with MySQL Workbench on that db and create the first table
+
